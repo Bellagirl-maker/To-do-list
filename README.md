@@ -38,7 +38,7 @@
 
 
 # 📖 [To Do list: list structure
-] <a name="about-project"></a>
+<a name="about-project"></a>
 
 This project is about a To Do list structure created using webpack
 
@@ -51,16 +51,7 @@ This Project was built with HTML CSS and JavaScript and webpack
 ### Key Features <a name="key-features"></a>
 
 
-The To Do list structure, displays the structure of a To Do list app.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link]
+The To Do list: list structure, displays the structure of a To Do list app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +106,6 @@ You can deploy this project on GitHub Pages
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Isabella Otoo**
 
 👤 **Isabella Otoo**
 
