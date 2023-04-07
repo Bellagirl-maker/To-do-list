@@ -1,72 +1,103 @@
 * {
-  font-family: system-ui;
-}
-
-.todo-list {
-  margin: 5vw 15vw;
-  box-shadow: 0.3vw 0.3vw 1.5vw grey;
-}
-
-.title-text {
-  align-self: center;
-  font-family: sans-serif;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.task-input {
-  border-style: none;
+.site-wrapper {
+  padding: 0.5rem;
+}
+
+.todo-box {
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px 1px #ddd;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-box > * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.list-check-and-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex: 2;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#new-item {
+  height: 100%;
+  border: none;
   outline: none;
   font-style: italic;
+  color: rgba(0, 0, 0, 0.8);
+  width: 90%;
 }
 
-.task-input-box {
-  padding: 1vw;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
+.list-item-value {
+  width: 90%;
+  border: none;
+  outline: none;
 }
 
-.list-item {
-  padding: 1vw;
-  border-bottom: 1px solid #eee;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
+.list-item-value:hover {
+  cursor: default;
 }
 
-.add-todo-btn {
-  content: url("./images/add.png");
-  width: 1.2vw;
-  height: 1.2vw;
-  opacity: 0.5;
+.list-item-value:focus {
+  cursor: auto;
 }
 
-.list-menu-icn {
-  content: url("./images/menu.png");
-  width: 1.5vw;
-  height: 1.5vw;
-  opacity: 0.5;
+.submit-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
-.refresh-icn {
-  content: url("./images/refresh.png");
-  width: 1.7vw;
-  height: 1.7vw;
-  align-self: center;
-  opacity: 0.5;
+i {
+  color: rgba(0, 0, 0, 0.4);
+  outline: none;
+  border: none;
 }
 
-.title-ref-box {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #eee;
-  padding: 1vw;
+.clear-li {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: none;
 }
 
-.clear-btn-box {
-  padding: 1.5vw 1vw;
-  background-color: #eee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.clear-li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.none {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-box {
+    width: 70%;
+    margin: 4rem auto 0;
+  }
 }
