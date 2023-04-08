@@ -53,6 +53,10 @@ This Project was built with HTML CSS and JavaScript and webpack
 
 The To Do list: list structure, displays the structure of a To Do list app.
 
+### Live Site<a name="Live site"></a>
+
+https://bellagirl-maker.github.io/To-do-list/dist/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -68,7 +72,7 @@ Example commands:
 cd your-folder
 
 
-git clone https://github.com/Bellagirl-maker/Awesomebooks-es6
+git clone https://github.com/Bellagirl-maker/To-do-list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
