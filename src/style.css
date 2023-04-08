@@ -97,7 +97,7 @@ i {
 
 @media screen and (min-width: 768px) {
   .todo-box {
-    width: 70%;
+    width: 65%;
     margin: 4rem auto 0;
   }
 }

@@ -1,8 +1,12 @@
 import './style.css';
 import todoList from './todoList.js';
-import { add, update, remove } from './addRemove.js';
+import {
+  add, update, updateIndexes, remove,
+} from './addRemove.js';
+import { setCompleted } from './interactive-list.js';
 
 const toDoBox = document.querySelector('.todo-box');
+let tasks = todoList;
 
 const renderTasks = () => {
   toDoBox.innerHTML = '';
@@ -52,6 +56,15 @@ const renderTasks = () => {
 
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
+
+    // checkbox 'completed' functionalities
+    if (todoList[i].completed === true) {
+      checkbox.checked = true;
+    }
+
+    checkbox.addEventListener('change', () => {
+      setCompleted(i);
+    });
 
     const itemValInput = document.createElement('input');
     itemValInput.classList.add('list-item-value');
@@ -104,10 +117,18 @@ const renderTasks = () => {
 
     toDoBox.appendChild(listItem);
   }
+  // try
+  const clearLi = document.createElement('li');
+  clearLi.classList.add('clear-li');
+  clearLi.innerHTML = 'Clear all completed';
+  toDoBox.appendChild(clearLi);
+
+  clearLi.addEventListener('click', () => {
+    tasks = todoList.filter((item) => item.completed === false);
+    todoList.splice(0, todoList.length, ...tasks);
+    updateIndexes();
+    localStorage.setItem('todolist', JSON.stringify(todoList));
+    renderTasks();
+  });
 };
 renderTasks();
-
-const clearLi = document.createElement('li');
-clearLi.classList.add('clear-li');
-clearLi.innerHTML = 'Clear all completed';
-toDoBox.appendChild(clearLi);
