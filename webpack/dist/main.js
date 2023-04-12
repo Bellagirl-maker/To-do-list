@@ -1,0 +1,1 @@
+(()=>{const e=document.createElement("h3");e.textContent="webpack setup",document.querySelector("body").append(e)})();

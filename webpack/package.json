@@ -1,0 +1,18 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
