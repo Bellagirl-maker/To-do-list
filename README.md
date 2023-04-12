@@ -5,7 +5,7 @@
   <br/>
 
 
-  <h3><b>To Do list: list structure
+  <h3><b>To Do list
 </b></h3>
 
 </div>
@@ -50,8 +50,15 @@ This Project was built with HTML CSS and JavaScript and webpack
 
 ### Key Features <a name="key-features"></a>
 
-
-The To Do list: list structure, displays the structure of a To Do list app.
+- **[use JEST library to test Add & Remove Functions]**
+- **[Use JavaScript to add and remove to-do items]**
+- **[Use Javascript to edit tasks]**
+- **[Add JavaScript files as modules]**
+- **[Use webpack to manage the code]**
+- **[Implement filter() method]**
+- **[Store todo data in local Storage]**
+- **[Use css to modify the appearance of the list]**
+- **[Use ES6 to modify the javaScript code]**
 
 ### Live Site<a name="Live site"></a>
 
@@ -117,6 +124,19 @@ You can deploy this project on GitHub Pages
 - Twitter: [@twitterhandle](https://twitter.com/isabella_otoo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/isabella-otoo-935901146/)
 
+
+👤 **Youssef Oubari**
+  
+- GitHub: [@yusufobr](https://github.com/yusufobr)
+- Twitter: [@OubariY](https://twitter.com/OubariY)
+- LinkedIn: [Youssef OUBARI](https://www.linkedin.com/in/youssef-oubari-370451147)
+
+
+👤 **Massa Z**
+
+- GitHub: [@massazoum](https://github.com/massazoum)
+- Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/massa-zoumanigui-1aba4525a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
