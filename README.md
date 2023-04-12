@@ -36,17 +36,28 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+# 📖Todo-list <a name="about-project"></a>
 
-# 📖 [To Do list: list structure
-<a name="about-project"></a>
-
-This project is about a To Do list structure created using webpack
+**[To-do-list]** is a project of creating a to do list using the HTML, CSS and JavaScript to dynamically create the list as well as interacting with it. It also involve using of webpack so as to lead and manage the packages in the code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This Project was built with HTML CSS and JavaScript and webpack
+- Javascript
+- HTML-5
+- Linters
+- CSS
+- Webpack
+- Jest for testing
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">JavaScript</a></li>
+  </ul>
+</details>
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -70,43 +81,46 @@ https://bellagirl-maker.github.io/To-do-list/dist/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+This project is useful and important as it gives developers an experience of how to add and remove list elements.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need a compatible browser to load the html file
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-Example commands:
-
-cd your-folder
-
-
-git clone https://github.com/Bellagirl-maker/To-do-list
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Prerequisites
-
-To get a local copy up and running, follow these steps.
-
-In order to run this project you need: Text editor and internet browser and github account
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```sh
+  cd my-folder
+  git clone https://github.com/Bellagirl-maker/To-do-list.git
+```
 
 ### Install
 
-clone this project to your local environment and open in the browser
+Install this project with:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```sh
+  cd todo-list
+  npm install
+```
 
 ### Usage
 
-
-Use this project in web browsers.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-I can help in building a product , feature or website through some of my work and experience! Don’t hestiate to contact me.
 
 ### Run tests
 
-npm run test
+To run tests, run the following command:
+
+```sh
+  npx hint .
+  npx stylelint "\*_/_.{css,scss}"
+  npx eslint .
+  npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
