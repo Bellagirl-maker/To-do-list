@@ -26,6 +26,13 @@ const update = (pos, key, value) => {
   return todolist;
 };
 
+const filter = (arry) => {
+  const newArry = arry.filter((item) => item.completed === false);
+  for (let i = 0; i < newArry.length; i++) newArry[i].index = i + 1;
+  return newArry;
+};
+
 exports.add = add;
 exports.remove = remove;
 exports.update = update;
+exports.filter = filter;
