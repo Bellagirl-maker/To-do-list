@@ -8,10 +8,10 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    static: './docs',
+    static: './dist',
   },
   output: {
-    path: path.resolve(__dirname, './docs'),
+    path: path.resolve(__dirname, './dist'),
     filename: '[name].bundle.js',
     clean: true,
   },
