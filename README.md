@@ -70,6 +70,9 @@
 - **[Store todo data in local Storage]**
 - **[Use css to modify the appearance of the list]**
 - **[Use ES6 to modify the javaScript code]**
+- **[Use the mock storage object you have created in Part 1 of this project to mock the localStorage updates.]**
+- **[Mock the HTML elements to test DOM manipulation functions.]**
+- **[Make sure you group your tests using the describe() method.]**
 
 ### Live Site<a name="Live site"></a>
 
@@ -146,7 +149,7 @@ You can deploy this project on GitHub Pages
 - LinkedIn: [Youssef OUBARI](https://www.linkedin.com/in/youssef-oubari-370451147)
 
 
-👤 **Massa Z**
+👤 **Massa Zoum**
 
 - GitHub: [@massazoum](https://github.com/massazoum)
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
