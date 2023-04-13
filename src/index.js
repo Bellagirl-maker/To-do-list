@@ -1,7 +1,7 @@
 import './style.css';
 import todoList from './todoList.js';
 import {
-  add, update, updateIndexes, remove,
+  add, update, updateIndexes, remove, filter
 } from './addRemove.js';
 import { setCompleted } from './interactive-list.js';
 
@@ -97,7 +97,7 @@ const renderTasks = () => {
       }
     });
 
-    // Update list item
+    // Update list item description
     itemValInput.addEventListener('keyup', (e) => {
       update(i, 'description', e.target.value);
     });
@@ -124,7 +124,7 @@ const renderTasks = () => {
   toDoBox.appendChild(clearLi);
 
   clearLi.addEventListener('click', () => {
-    tasks = todoList.filter((item) => item.completed === false);
+    tasks = filter(todoList)
     todoList.splice(0, todoList.length, ...tasks);
     updateIndexes();
     localStorage.setItem('todolist', JSON.stringify(todoList));

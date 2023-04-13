@@ -26,3 +26,5 @@ export const remove = (position) => {
   updateIndexes();
   localStorage.setItem('todolist', JSON.stringify(todolist));
 };
+
+export const filter = (arry) => arry.filter((item) => item.completed === false);

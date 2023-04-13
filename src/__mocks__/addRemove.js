@@ -16,10 +16,17 @@ const updateIndexes = () => {
 };
 
 const remove = (position) => {
-  todolist.splice(position - 1, 1);
+  todolist.splice(position, 1);
   updateIndexes();
   return todolist;
 };
 
+const update = (pos, key, value) => {
+  todolist[pos][key] = value;
+  return todolist
+} 
+
+
 exports.add = add;
 exports.remove = remove;
+exports.update = update
