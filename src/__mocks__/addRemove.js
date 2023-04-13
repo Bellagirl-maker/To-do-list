@@ -23,10 +23,9 @@ const remove = (position) => {
 
 const update = (pos, key, value) => {
   todolist[pos][key] = value;
-  return todolist
-} 
-
+  return todolist;
+};
 
 exports.add = add;
 exports.remove = remove;
-exports.update = update
+exports.update = update;

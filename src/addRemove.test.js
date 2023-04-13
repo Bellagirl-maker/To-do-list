@@ -22,7 +22,7 @@ describe('add items to Todo', () => {
         completed: false,
         index: 2,
       },
-    ])
+    ]);
     expect(add('task three')).toEqual([
       {
         description: 'task one',
@@ -39,22 +39,21 @@ describe('add items to Todo', () => {
         completed: false,
         index: 3,
       },
-    ])
-
+    ]);
   });
 
   it('should delete item', () => {
     expect(remove(0)).toEqual([
-        {
-          description: 'task two',
-          completed: false,
-          index: 1,
-        },
-        {
-          description: 'task three',
-          completed: false,
-          index: 2,
-        }
+      {
+        description: 'task two',
+        completed: false,
+        index: 1,
+      },
+      {
+        description: 'task three',
+        completed: false,
+        index: 2,
+      },
     ]);
   });
 });
@@ -64,14 +63,14 @@ describe('Function that edit task description', () => {
     expect(update(0, 'description', 'todo two')).toEqual([
       {
         description: 'todo two',
-          completed: false,
-          index: 1,
+        completed: false,
+        index: 1,
       },
       {
         description: 'task three',
-          completed: false,
-          index: 2,
+        completed: false,
+        index: 2,
       },
-    ])
-  })
-})
+    ]);
+  });
+});

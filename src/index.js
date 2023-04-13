@@ -1,7 +1,7 @@
 import './style.css';
 import todoList from './todoList.js';
 import {
-  add, update, updateIndexes, remove, filter
+  add, update, updateIndexes, remove, filter,
 } from './addRemove.js';
 import { setCompleted } from './interactive-list.js';
 
@@ -124,7 +124,7 @@ const renderTasks = () => {
   toDoBox.appendChild(clearLi);
 
   clearLi.addEventListener('click', () => {
-    tasks = filter(todoList)
+    tasks = filter(todoList);
     todoList.splice(0, todoList.length, ...tasks);
     updateIndexes();
     localStorage.setItem('todolist', JSON.stringify(todoList));
