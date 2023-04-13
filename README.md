@@ -72,7 +72,7 @@
 - **[Use ES6 to modify the javaScript code]**
 - **[Use the mock storage object you have created in Part 1 of this project to mock the localStorage updates.]**
 - **[Mock the HTML elements to test DOM manipulation functions.]**
-- **[Make sure you group your tests using the describe() method.]**
+- **[grouping your tests using the describe() method.]**
 
 ### Live Site<a name="Live site"></a>
 
