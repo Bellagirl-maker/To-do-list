@@ -1,9 +1,7 @@
-
 <a name="readme-top"></a>
 
 <div align="center">
   <br/>
-
 
   <h3><b>To Do list
 </b></h3>
@@ -58,7 +56,6 @@
   </ul>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
 
 - **[use JEST library to test Add & Remove Functions]**
@@ -73,7 +70,7 @@
 
 ### Live Site<a name="Live site"></a>
 
-https://bellagirl-maker.github.io/To-do-list/dist/
+https://bellagirl-maker.github.io/To-do-list/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,13 +135,11 @@ You can deploy this project on GitHub Pages
 - Twitter: [@twitterhandle](https://twitter.com/isabella_otoo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/isabella-otoo-935901146/)
 
-
 👤 **Youssef Oubari**
-  
+
 - GitHub: [@yusufobr](https://github.com/yusufobr)
 - Twitter: [@OubariY](https://twitter.com/OubariY)
 - LinkedIn: [Youssef OUBARI](https://www.linkedin.com/in/youssef-oubari-370451147)
-
 
 👤 **Massa Z**
 
@@ -154,14 +149,12 @@ You can deploy this project on GitHub Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Animations**
-- [ ] **Interactivity** 
+- [ ] **Interactivity**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -170,7 +163,6 @@ Contributions, issues, and feature requests are welcome!
 Do not hesitate to notify me of any issue with this project through the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -183,10 +175,9 @@ If you like this project give me 5 stars ⭐️⭐️⭐️⭐️
 I would like to acknowledge and thank minimalist as I used their to do list is a reference for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-  
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
