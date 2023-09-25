@@ -144,11 +144,7 @@ You can deploy this project on GitHub Pages
 - Twitter: [@OubariY](https://twitter.com/OubariY)
 - LinkedIn: [Youssef OUBARI](https://www.linkedin.com/in/youssef-oubari-370451147)
 
-<<<<<<< HEAD
 👤 **Massa Zoum**
-=======
-👤 **Massa Z**
->>>>>>> main
 
 - GitHub: [@massazoum](https://github.com/massazoum)
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
