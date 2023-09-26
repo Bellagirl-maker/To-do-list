@@ -36,7 +36,7 @@
 
 # 📖Todo-list <a name="about-project"></a>
 
-**[To-do-list]** is a project of creating a to do list using the HTML, CSS and JavaScript to dynamically create the list as well as interacting with it. It also involve using of webpack so as to lead and manage the packages in the code.
+**[To-do-list]** is a project of creating a Todo list using the HTML, CSS and JavaScript to dynamically create the list as well as interacting with it. It also involve using of webpack so as to lead and manage the packages in the code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
